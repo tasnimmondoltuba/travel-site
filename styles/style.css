@@ -1,3 +1,114 @@
-h1{
-color: red;
-}
+/* font family */
+
+  @import url('https://fonts.googleapis.com/css2?family=Inter&family=Mulish:wght@400;600;800;900&display=swap');
+
+  /* all over styles add */
+  *{
+        font-family: 'Mulish', sans-serif;
+  }
+
+
+  /* header styles */
+  header{
+    padding:50px 100px;
+  }
+  .nav-title{
+    color: #131318;
+    font-size: 36px;
+    font-weight: 800;
+    margin-right:100px ;
+
+  }
+  
+  nav{
+    display: flex;
+    justify-content: space-between;
+   align-items: center;
+    
+  }
+  nav>ul{
+    display: flex;
+    margin-left: 150px;
+  
+  }
+  nav li{
+    list-style: none;
+    margin-right: 45px;
+    font-size: 18px;
+  }
+  nav li a{
+    text-decoration: none;
+    color: #424247;
+    font-weight: 700;
+  }
+  
+  .banner{
+    border-radius: 16px;
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%),url(../Images/Group\ 13\ \(1\)\ \(1\).png);
+    width: 1140px;
+    height: 500px;
+    margin-left: 0px;
+    text-align: center;
+
+  }
+  .banner h1{
+    padding: 110px 285px 0px 285px;
+    color: #FFF;
+    font-size: 50px;
+    font-weight: 800;
+    margin-bottom: 0px;
+  }
+  .banner p{
+    margin-top: 20px;
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 0px;
+  }
+  .conteiner-input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    margin-top: 55px;
+  }
+  .container-input input{
+    background-color: #FFF;
+  }
+  
+  .input{
+    position: relative;
+   
+  }
+  .input-field{
+    background-color: #FFF;
+    width: 100px;
+    outline: 0;
+    border: 2px solid rgb(240, 233, 233);
+    border-radius: 10px;
+    padding:10px 40px 10px 20px;
+    font-size: 1em;
+
+  }
+  .icon{
+    position: absolute;
+    left: 110px;
+    top:0;
+    width: 60px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1em;
+    color: lightslategray;
+  }
+  button{
+    border: 2px solid rgb(243, 103, 103);
+    border-radius: 10px;
+    padding:13px 50px 13px 50px;
+    background-color: rgba(245, 43, 43, 0.568);
+    color: #FFF;
+    
+  }
+ 
+ 
