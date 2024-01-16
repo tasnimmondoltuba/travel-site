@@ -252,6 +252,67 @@
   margin: 0px 100px 5px 100px;
   grid-template-columns: repeat(2,1fr);
 }
+/* why choose us styles */
+.choose-description{
+margin: 100px 100px 40px 100px;
+  text-align: center;
+}
+.choose-description h3{
+  color: #131318;
+  font-size: 40px;
+  font-weight: 800;
+}
+.choose-description p{
+  color: rgba(19, 19, 24, 0.70);
+  font-size: 16px;
+}
+.offers{
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.offers i{
+  margin-bottom: 10px;
+}
+.offers h5{
+  color:rgb(26, 25, 25);
+  font-size: 24px;
+  font-weight: 800;
+  margin: 5px auto;
+}
+.offers p{
+  margin-top: 5px;
+  color: #5A5A5D;
+  font-size: 16px;
+
+}
+.choose-1{
+  width: 400px;
+  height: 150px;
+  padding: 40px;
+  border-radius: 16px;
+  border: 1px solid rgba(251, 181, 99, 0.20);
+  background: rgba(251, 181, 99, 0.05);
+
+}
+.choose-2{
+  border-radius: 16px;
+  border: 1px solid rgba(41, 206, 246, 0.20);
+  background: rgba(41, 206, 246, 0.05);
+  width: 400px;
+  height: 150px;
+  padding: 40px;
+}
+.choose-3{
+  width: 400px;
+  height: 150px;
+  padding: 40px;
+  border-radius: 16px;
+  border: 1px solid rgba(233, 68, 68, 0.20);
+  background: rgba(233, 68, 68, 0.05);
+}
 /* responsive styles */
 
  /* mobile device*/
