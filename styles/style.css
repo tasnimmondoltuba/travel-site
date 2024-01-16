@@ -563,7 +563,46 @@ margin: 100px 100px 40px 100px;
         text-wrap: wrap;
         text-align: center;
       }
-      
-      
+      /* news latter section responsive */
+      .submit{
+        display: block;
+        margin: 0 auto;
+        width: 100%;
+      }
+      .subscription{
+        margin-bottom: 20px;
+        width: 320px;
+
+
+      }
+      .sub-input input{
+        padding: 10px 150px 10px 10px;
+      }
+      .sub-btn{
+        padding:10px 135px;
+        font-size: 10px;
+        
+      }
+      .sub-img img{
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+       margin-bottom: 40px;
+      }
+      .discount{
+        padding: 5px;
+        width: 150px;
+        height: 60px;
+        left: 233px;
+        top: 154px;
+      }
+      .discount p{
+        margin-bottom: 5px;
+        font-size: 10px;
+      }
+      .discount h2{
+        margin-top: 0px;
+        font-size: 15px;
+      }
  }
  
