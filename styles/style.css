@@ -349,6 +349,10 @@ margin: 100px 100px 40px 100px;
   height: 422px;
   border-radius: 16px;
   background: lightgray 50% ;
+  
+}
+.sub-img{
+  position: relative;
 }
 .sub-input input{
   display: grid;
@@ -364,8 +368,25 @@ margin: 100px 100px 40px 100px;
   color: #FFF;
   font-size: 20px;
   font-weight: 800;
+}
+.discount{
+  border-radius: 16px;
+  background: #FF5400;
+  padding: 20px;
+  text-align: center;
+  width: 300px;
+  height: 100px;
+  position: absolute;
+  transform: rotate(-19.628deg);
+  left: 323px;
+  top: 233px;
 
-  
+}
+.discount p{
+  margin-bottom: 5px;
+}
+.discount h2{
+  margin-top: 0px;
 }
 /* responsive styles */
 
