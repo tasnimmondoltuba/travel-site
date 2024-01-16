@@ -253,6 +253,9 @@
   grid-template-columns: repeat(2,1fr);
 }
 /* why choose us styles */
+.choose-us{
+  margin-bottom: 100px;
+}
 .choose-description{
 margin: 100px 100px 40px 100px;
   text-align: center;
@@ -474,6 +477,21 @@ margin: 100px 100px 40px 100px;
         font-size: 20px;
         font-weight: 800;
       }
+      /* why choose me responsive */
+      .choose-description{
+        margin: 0 auto;
+        text-align: start;
+      }
+      .choose-description h3{
+        font-size: 20px;
+        text-align: center;
+      }
+      .choose-description p{
+        font-size: 10px;
+        text-wrap: wrap;
+        text-align: center;
+      }
+      
       
  }
  
