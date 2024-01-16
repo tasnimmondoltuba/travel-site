@@ -119,10 +119,29 @@
     padding:13px 50px 13px 50px;
     background: #FF5400;
     color: #FFF;
-    font-weight: 700;
+    font-weight: 800;
+ 
+   
+
   }
  /* banner section styles end */
 
+/* main section styles */
+/* our populker tour section */
+.populer{
+  display: flex;
+  gap: 40px;
+  margin: 100px 100px;
+}
+.populer h3{
+  color: #131318;
+  font-size: 40px;
+  font-weight: 800;
+}
+.populer p,ul{
+  color: rgba(19, 19, 24, 0.70);
+  font-size: 16px;
+}
 
 
 /* responsive styles */
@@ -160,7 +179,7 @@
         }
         .banner{
          width: 100%;
-
+         border-radius: 8px;
           margin: 0 auto;
         }
         .banner h1{
@@ -175,6 +194,29 @@
           padding: 13px 40px;
         }
       /* responsive banner end */
+
+
+      /* our populer section responsive */
+      .populer{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+      .populer-description{
+         margin: 0 auto;
+      }
+      .populer h3{
+        font-size: 25px;
+      }
+      .populer p,ul{
+        font-size: 9px;
+      }
+      .img-section img{
+        width: 335px;
+        height: 342px;
+        border-radius: 16px;
+
+      }
   
  }
  
