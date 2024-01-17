@@ -389,6 +389,17 @@ margin: 100px 100px 40px 100px;
   width: 580px;
   padding: 30px 20px 40px 550px;
 }
+/* perfect section styles */
+.perfect-container{
+  margin: 100px 100px 100px 200px;
+}
+.perfect-all{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+align-items: center;
+justify-content: center;
+gap: 40px;
+}
 /* bounes section styles */
 .image-title{
   margin: 10px 100px 30px 100px;
@@ -768,6 +779,17 @@ margin: 100px 100px 40px 100px;
         font-size: 20px;
         margin-bottom: 5px;
       }
+      /* perfect section responsive */
+      .perfect-all{
+        grid-template-columns: repeat(1,1fr);
+        align-items: center;
+        justify-content: center;
+      }
+       video{
+        /* align-items: center;
+        margin-right: 20px; */
+        
+      }
       /* bonus section responsive*/ 
       .bonus-container{
         margin: 0% auto;
@@ -775,7 +797,7 @@ margin: 100px 100px 40px 100px;
       }
       .image-section img{
       margin: 0% auto;
-        
+        margin-left: 60px;
       }
       .image-title h2{
         font-size: 20px;
