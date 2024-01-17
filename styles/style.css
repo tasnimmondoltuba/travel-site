@@ -322,6 +322,75 @@ margin: 100px 100px 40px 100px;
   border: 1px solid rgba(233, 68, 68, 0.20);
   background: rgba(233, 68, 68, 0.05);
 }
+/* deals and discounts styles */
+/* .deals-container{
+  align-items: center;
+} */
+.deals-container h2{
+  color: #131318;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 800;
+  margin-bottom: 0px;
+
+}
+.deals-container >p{
+  margin-top: 10px;
+  color: rgba(19, 19, 24, 0.70);
+  text-align: center;
+
+}
+.deals-description-1,.deals-description-3,.deals-description-2{
+  border-radius: 16px;
+  border:2px solid #FFF;
+  background: rgba(255, 255, 255, 0.80);
+  backdrop-filter: blur(2.5px);
+  width: 500px;
+  height: 350px;
+  padding: 20px 40px 20px 20px;
+}
+
+.img-icon i{
+  color: #FF5400;
+}
+.time-icon{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 40px;
+  margin-bottom: 40px;
+}
+.des-container{
+
+  margin: 20px 100px;
+}
+.first-deals{
+  background: url(../Images/Group\ 39.png);
+  background-repeat: no-repeat;
+  border-radius: 16px;
+  margin: 40px 100px 20px 100px;
+  height: 380px;
+  width: 580px;
+  padding: 30px 20px 40px 550px;
+}
+.second-deals{
+  background: url(../Images/Group\ 40.png);
+  background-repeat: no-repeat;
+  border-radius: 16px;
+  margin: 20px 100px 20px 100px;
+  height: 380px;
+  width: 580px;
+  padding: 25px 540px 40px 30px ;
+}
+.thired-deals{
+  background: url(../Images/Group\ 39.png);
+  border-radius: 16px;
+  background-repeat: no-repeat;
+  margin: 20px 100px 100px 100px;
+  height: 380px;
+  width: 580px;
+  padding: 30px 20px 40px 550px;
+}
 /* bounes section styles */
 .video-title{
   margin: 10px 100px 30px 100px;
@@ -656,6 +725,50 @@ margin: 100px 100px 40px 100px;
       .offers img{
         width: 30px;
         height: 30px;
+      }
+      /* deals and discount responsive */
+      .deals-container{
+        width: auto;
+        margin: 0% auto;
+      }
+      .deals-container h2{
+        font-size: 20px;
+        text-align: center;
+      
+      }
+      .des-container{
+        margin: 0 auto;
+      }
+      .deals-container>p{
+        font-size: 10px;
+        text-align: center;
+      }
+      .first-deals,.second-deals,.thired-deals{
+         margin:0 auto;
+          width:auto;
+          padding: 80px 70px;
+      }
+      .deals-description-1,.deals-description-2,.deals-description-3{
+        width: 200px;
+        height: 300px;
+       
+      }
+      .time-icon{
+        gap: 5px;
+      }
+      .time-icon span{
+        font-size: 10px;
+      }
+      .deals-description-1 h2,h5{
+        font-size: 20px;
+        margin-bottom: 5px;
+      }
+      .deals-description-2 p{
+        font-size: 13.5px;
+      }
+      .deals-description-2 h2,h5 {
+        font-size: 20px;
+        margin-bottom: 5px;
       }
       /* bonus section responsive */
       .video-title h2{
